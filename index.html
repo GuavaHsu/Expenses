@@ -161,7 +161,9 @@
           <div className="min-h-screen flex items-center justify-center bg-[#FCE4EC] text-pink-700 font-bold px-10 text-center">
             <div className="space-y-6">
               <Icon name="Loader" className="w-16 h-16 mx-auto text-pink-600" />
-              <p className="tracking-[0.2em] uppercase text-xl font-bold">正在安全驗證中...</p>
+                <p className="tracking-[0.2em] uppercase italic text-xl font-black">正在安全驗證中...</p>
+                <p className="text-xs text-slate-400 font-medium tracking-widest">正在連線至 Google 伺服器</p>
+
             </div>
           </div>
         );
@@ -173,6 +175,8 @@
             <div className="space-y-8 max-w-sm">
               <div className="text-8xl">🚧</div>
               <p className="tracking-[0.3em] uppercase text-sm text-slate-700 font-bold">System Under Maintenance</p>
+              <p className="text-[10px] opacity-50 tracking-widest font-mono font-black uppercase">請確認網址末端 ID 是否正確</p>
+
             </div>
           </div>
         );
