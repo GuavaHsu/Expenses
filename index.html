@@ -54,7 +54,7 @@
       const [apiToken, setApiToken] = React.useState("");
       const [status, setStatus] = React.useState('idle');
       
-      const apiUrl = 'https://script.google.com/macros/s/AKfycbydc3tx0aPpod45XBe5l2MNlCETBYXjDXkuFoGBPrplv4CulNoaraIehTT-B_x9axxiVg/exec';
+      const apiUrl = 'https://script.google.com/macros/s/AKfycbw-Ksdto1jKVF2m6sQnOt94TjQxGeJDJT-IYodm5KuAGXWxasgR-E51VGC_v4uAFJnF/exec';
 
       const getTodayString = () => { const now = new Date(); return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`; };
       const [fullDate, setFullDate] = React.useState(getTodayString());
