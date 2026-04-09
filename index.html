@@ -93,7 +93,7 @@
       const [status, setStatus] = React.useState('idle');
       const [showCalendar, setShowCalendar] = React.useState(false);
       
-      const apiUrl = 'https://script.google.com/macros/s/AKfycbylZOr-mY4m822xXNBZgp7uAaeJ_6eT-ZxwZYc9YGNdweiyz5x7l0U8ekSaY9_9MVrP/exec';
+      const apiUrl = 'https://script.google.com/macros/s/AKfycbw-Ksdto1jKVF2m6sQnOt94TjQxGeJDJT-IYodm5KuAGXWxasgR-E51VGC_v4uAFJnF/exec';
 
       const getTodayString = () => { const now = new Date(); return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`; };
       const [fullDate, setFullDate] = React.useState(getTodayString());
